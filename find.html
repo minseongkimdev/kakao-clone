@@ -1,113 +1,89 @@
-<!-- <name attribute "value"> Content </name>
-<human gender> = "male">Human</human>
-<dong breed = "german-shepard">Dog</dog>
-  <title>This is the title of the document</title> -->
-
-
 <!DOCTYPE html>
-
-<html lang ="en">
-  <head>
-    <meta charset = "utf-8">
-    <meta name = "viewport" content="width-device-width, initial ">
-    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-    <title>Find</title>
-  </head>
-  <body>
-      <header>
-        <div class="header__top">
-        <div class="header__column">
-          <i class="fas fa-plane" aria-hiddne = "true"></i>
-          <i class="fa fa-wifi"></i>
-
-
-
-
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Find</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top-header">
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fa fa-fighter-jet"></i>
+        <i class="fa fa-wifi"></i>
       </div>
       <div class="header__column">
-        <span class = "header__time">18:38</span>
-
+        <span class="header__time">18:38</span>
       </div>
-      <div class= "header__column">
-        <i class="far fa-moon"></i>
-        <i class="fab fa-bluetooth-b"></i>
-          <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i>
-
-          </div>
-        </div>
-        <div class = "header__bottom"></div>
-        <div class="header__column"></div>
+      <div class="header__column">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth-b"></i>
+        <span class="header__battery">66% <i class="fa fa-battery-full"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
         <span class="header__text">Edit</span>
       </div>
       <div class="header__column">
-        <span class="header__text ">Find</span>
+        <span class="header__text">Find</span>
+      </div>
+      <div class="header__column">
 
-      <!-- <span class = "header__text">Find<i class="fa fa-caret-down"></i> <span class= "header__number">1</span></<span> -->
-            <div class="header__column"></div>
-            <!-- <i class = "fa fa-cog fa-lg"></i> -->
-
-
-    </header>
-    <main class="find">
+      </div>
+    </div>
+  </header>
+  <main class="find">
     <section class="find__options">
-
-
-      <div class="find__options">
-
+      <div class="find__option">
         <i class="fa fa-address-book fa-lg"></i>
         <span class="find__option-title">Find</span>
       </div>
-      <div class="find__options">
-
+      <div class="find__option">
         <i class="fa fa-qrcode fa-lg"></i>
         <span class="find__option-title">QR Code</span>
       </div>
-      <div class="find__options">
-
-        <i class="fa fa-mobile fa-2x"></i>
+      <div class="find__option">
+        <i class="fa fa-mobile fa-lg"></i>
         <span class="find__option-title">Shake</span>
       </div>
-      <div class="find__options">
-
-        <i class="fa fa-envelope fa-lg"></i>
+      <div class="find__option">
+        <i class="fa fa-envelope-o fa-lg"></i>
         <span class="find__option-title">Invite via SMS</span>
       </div>
-
     </section>
     <section class="find__recommended">
-
       <header>
-
-        <h6 class="find__title">Recommended Friends</h6>
-
+        <h6 class="recommended__title">Recommended Friends</h6>
       </header>
       <div class="recommended__none">
-        <span class="recommeded__text">You have no recommended.</span>
+        <span class="recommended__text">You have no recommended friends.</span>
       </div>
     </section>
-
-    </main>
-
-
-    <nav class="tab-bar">
-      <a href="index.html" class="tab-bar__tab ">
-        <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
-      </a>
-      <a href="chats.html" class="†ab-bar__tab">
-        <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
-      </a>
-      <a href="find.html" class="/tab-bar__tab">
-        <i class="fa fa-search"></i><span class="tab-bar__title tab-bar__tab-bar selected">Find</span>
-      </a>
-      <a href="more.html" class="tab-bar__tab">
-        <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
-      </a>
-      <a href="" class="tab-bar__tab"></a>
-    </nav>
-  </body>
-
-
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+  <div class="bigScreenText">
+    <span>Please make your screen smaller</span>
+  </div>
+</body>
 </html>

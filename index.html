@@ -1,116 +1,100 @@
-<!-- <name attribute "value"> Content </name>
-<human gender> = "male">Human</human>
-<dong breed = "german-shepard">Dog</dog>
-  <title>This is the title of the document</title> -->
-
-
 <!DOCTYPE html>
-
-<html lang ="en">
-  <head>
-    <meta charset = "utf-8">
-    <meta name = "viewport" content="width-device-width, initial ">
-    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-    <title>Friends</title>
-  </head>
-  <body>
-      <header>
-        <div class="header__top">
-        <div class="header__column">
-          <i class="fas fa-plane" aria-hiddne = "true"></i>
-          <i class="fa fa-wifi"></i>
-
-
-
-
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Friends!</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top-header">
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fa fa-fighter-jet"></i>
+        <i class="fa fa-wifi"></i>
       </div>
       <div class="header__column">
-        <span class = "header__time">18:38</span>
-
+        <span class="header__time">18:38</span>
       </div>
-      <div class= "header__column">
-        <i class="far fa-moon"></i>
-        <i class="fab fa-bluetooth-b"></i>
-          <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i>
-
-          </div>
-        </div>
-        <div class = "header__bottom"></div>
-
-        <div class="header__column"></div>
-
+      <div class="header__column">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth-b"></i>
+        <span class="header__battery">66% <i class="fa fa-battery-full"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
         <span class="header__text">Manage</span>
       </div>
       <div class="header__column">
-
-      <span class = "header__text">Friends <span class= "header__number">1</span></<span>
-            <div class="header__column"></div>
-            <i class = "fa fa-cog fa-lg"></i>
-
-
-    </header>
-
-    <main class  = "friend">
-      <div class = "search-bar">
-        <i class="fa fa-search"></i>
-        <input type = "text" placeholder = "Find friends, chats, Plus Friends">
+        <span class="header__text">Friends <span class="header__number">1</span></span>
       </div>
-      <section class= " friends__section">
-        <haeder class = "friends__section-header">
-          <h6 class="friends__section-title">My Profile</h6>
-        </header>
-        <div class="firends__section-rows">
-        <div class="friends__sectione-row">
-          <a href="profile.html">
-        <img src="" alt="">
-        <span class="friends__section-name">Kimminseong</span>
-        </a>
+      <div class="header__column">
+        <i class="fa fa-cog fa-lg"></i>
+      </div>
+    </div>
+  </header>
+  <main class="friends">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="friends__section-title">My Profile</h6>
+      </header>
+      <div class="friends__section-rows">
+        <div class="friends__section-row">
+            <img src="images/avatar.jpg" alt="">
+            <a href="profile.html" class="fiends__section-name">
+              Kimminseong
+            </a>
         </div>
         <div class="friends__section-row">
-          <div class="friends__section-column"></div>
-        <img src="" alt="">
-        <span class="friends__section-name">Friends' Names Display</span>
+          <img src="images/avatar.png" alt="">
+          <span class="fiends__section-name">Friends' Names Display</span>
         </div>
       </div>
-      </section>
-      <section class = "friends__section">
-        <header class ="friends__section-header">
-          <h6 class = " freinds__section-title"></h6>
-        </header>
-        <div class="friends__section-row">
-          <div class="friends__section-row">
-
+    </section>
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="friends__section-title">Friends</h6>
+      </header>
+      <div class="friends__section-rows">
+        <div class="friends__section-row with-tagline">
           <div class="friends__section-column">
-        <img src="" alt="">
-        <span class="friends__section-name">Mother</span>
+              <img src="images/avatar2.png" alt="">
+              <span class="friends__section-name">Mom</span>
+          </div>
+          <span class="friends__section-tagline">
+            Miss you, Son.
+          </span>
         </div>
-        <span class="friends__section-tagline">
-
-          Miss you ,son
-
-
-        </span>
-        </div>
-        </div>
-    </main>
-    <nav class="tab-bar">
-      <a href="index.html" class="tab-bar__tab tab-bar__tab-bar selected">
-        <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
-      </a>
-      <a href="chats.html" class="†ab-bar__tab">
-        <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
-      </a>
-      <a href="find.html" class="/tab-bar__tab">
-        <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
-      </a>
-      <a href="more.html" class="tab-bar__tab">
-        <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
-      </a>
-      <a href="" class="tab-bar__tab"></a>
-    </nav>
-
-  </body>
+      </div>
+    </section>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+  <div class="bigScreenText">
+    <span>Please make your screen smaller</span>
+  </div>
+</body>
 </html>
